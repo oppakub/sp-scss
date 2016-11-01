@@ -4071,8 +4071,8 @@ a.label-theme {
        }
        &.today {
          .day-circle {
-           background-color: $red;
-           color: #FFF;
+           background-color: $red !important;
+           color: #FFF !important;
          }
          &.selected {
            .day-circle {
@@ -4172,8 +4172,8 @@ a.label-theme {
     }
   }
   &.today {
-    background-color: $red;
-    color: #FFF;
+    background-color: $red !important;
+    color: #FFF !important;
     .time-detail {
       .time {
         span {
